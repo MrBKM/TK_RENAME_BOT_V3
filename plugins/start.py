@@ -10,11 +10,11 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"")
+CHANNEL = os.environ.get('CHANNEL', "Tk_Bot_Updates")
 import datetime
 from datetime import date as date_
-STRING = os.environ.get("STRING","")
-log_channel = int(os.environ.get("LOG_CHANNEL",""))
+STRING = os.environ.get("STRING", "AQB7TnkzG33ebGeNniM90jGAJq258VNvCrRg_j3gfwo1UmJmJ0gx7WwGVmui1CV8mOHVh8YeWca3t2yI44acI81qCPu5I5w01iitW8kMjO3x1ZU2jdyAdHsfUvxojaM5j26bmfbYa2DuTpp7_PZxFISftGoJjlyMl61AQuKaDWr-mfUSZw7uas-XYFiuTcdlOCaJe1J0xvckA60pksJYmSq829GxeMYQIA3j5Fchlw9HDzlpXxxkf2DdGYHzoXK_Vl-gNTCU927gWIJg7CToA2O8_gbPS_gLJrbPoXV5AJ8P_F-Aq0Mdhluh3J4TgxgR6Al3s874aWdZiOU3qGzVMcEOAAAAAU-eBhoA")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001871584405"))
 token = os.environ.get('TOKEN','')
 botid = token.split(':')[0]
 
